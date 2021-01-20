@@ -1,2 +1,2 @@
 # obsidian-tweaks
-A collection of small CSS snippest for Obsidian
+A collection of small CSS snippets for Obsidian
