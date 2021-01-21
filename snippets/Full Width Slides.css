@@ -1,0 +1,6 @@
+/*
+Snippet to make slideshow slides take up full width of slides' container div
+*/
+.slides {
+    width: 100% !important;
+}
