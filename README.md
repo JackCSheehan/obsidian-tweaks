@@ -12,7 +12,7 @@ Below is an explanation of each stylesheet and why I find them useful.
 
 #### Scrollable Slides
 ---
-Obsidian has a core plugin that will automatically create slideshows from your notes, using the `---` symbol as a delimiter for the slides. One issue this plugin has, however, is that the slides are not responsive. If you put too much content on slide, it simply overflows and content is hidden beneath the slide's container div. The scrollable slides stylesheet automatically adds a scrollbar to overflowing sides so that content is not simply lost from overflowing.
+Obsidian has a core plugin that will automatically create slideshows from your notes using the `---` symbol as a delimiter for the slides. One issue this plugin has, however, is that the slides are not responsive. If you put too much content on a slide, it simply overflows and content is hidden beneath the slide's container div. The Scrollable Slides stylesheet automatically adds a scrollbar to overflowing slides so that content is not simply clipped when overflowing.
 
 #### Slide Image Margins
 ---
