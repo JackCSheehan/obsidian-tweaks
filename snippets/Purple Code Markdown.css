@@ -1,0 +1,7 @@
+/*
+This snippet changes code blocks without a specified language to be purple rather than red
+to blend it better with the Obsidian theme colors
+*/
+code:not([class]) {
+    color: var(--text-accent);
+}

@@ -3,18 +3,12 @@ CSS snippet that adds scrollbars on Obsidian slideshow slides in cases where con
 would normally overflow and be hidden
 */
 
-/*
-Apply styles to containing divs for slides
-*/
+/* Apply styles to containing divs for slides */
 .slides {
-    /*
-    Grid display used for main alignment
-    */
+    /* Grid display used for main alignment */
     display: grid;
 
-    /*
-    Set grid sizes to be size of slide container
-    */
+    /* Set grid sizes to be size of slide container */
     grid-template-rows: 100%;
     grid-template-columns: 100%;
 }
