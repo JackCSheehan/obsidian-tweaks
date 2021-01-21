@@ -20,7 +20,7 @@ Occasionally, the slideshow plugin places images in such a way that the bottom p
 
 ### Purple Code Markdown
 ---
-By default, code markdown that isn't assigned to be styled as a particular language is displayed with a bright red text. The Purple Code Markdown snippet changes that default color to Obsidian's text accent color (a purple tone) to better match the rest of the UI.
+By default, code markdown that isn't assigned to be styled as a particular language is displayed in a bright red text. The Purple Code Markdown snippet changes that default color to Obsidian's text accent color (a purple tone) to better match the rest of the UI.
 
 ### Full Width Slides
 ---
