@@ -1,7 +1,7 @@
 ## Obsidian Tweaks
 A collection of small CSS snippets for Obsidian.
 
-Obsidian is a markdown editor designed to act as a personal knowledge base and note-taking software. Obsidian is great, but it has a few quirks that make using certain features of it (the slideshow plugin, for example) a bit frustrating. Luckily, Obsidian has native support for adding custom CSS to any part of the program. This repository is as a collection for CSS files that I've written to enhance my Obsidian experience.
+Obsidian is a markdown editor designed to act as a personal knowledge base and note-taking software. Obsidian is great, but it has a few quirks that make using certain features of it (the slideshow plugin, for example) a bit frustrating. Luckily, Obsidian has native support for adding custom CSS to any part of the program. This repository is as a collection of CSS files that I've written to enhance my Obsidian experience.
 
 You can check out Obsidian [here](https://obsidian.md/).
 
