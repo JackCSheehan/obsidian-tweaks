@@ -1,0 +1,6 @@
+/*
+Snippet to make slideshow slides take up full height of slides' container div
+*/
+.slides {
+    height: 100% !important;
+}
