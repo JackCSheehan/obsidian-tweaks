@@ -1,0 +1,6 @@
+/*
+Remove margin from image to prevent cutoff in slideshow
+*/
+.slides img {
+    margin: 0;
+}
