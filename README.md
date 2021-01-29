@@ -36,4 +36,4 @@ Obsidian normally shows Latex errors as text highlighted with a tight and bright
 
 ### Purple Slide Controls
 ---
-This snippet changes the color of the slide controls (the progress bar and the left/right arrow buttons) to a purple color from the dark theme to better match the rest of the interface.
+This snippet changes the color of the slide controls (the progress bar and the left/right arrow buttons) to a purple color to better match the rest of the interface.
