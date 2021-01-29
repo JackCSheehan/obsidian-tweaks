@@ -8,13 +8,13 @@ would normally overflow and be hidden
     /* Set overflows to allow for auto vertical scroll bar and no horizontal scroll bar */
     overflow-x: hidden !important;
     overflow-y: auto !important;
+
+    /* Enable pointer events so users can click and drag on scrollbars */
+    pointer-events: auto !important;
 }
 
 /* Apply styles that apply directly to slides */
 .slides > section {
-    /* Enable pointer events so users can click and drag on scrollbars */
-    pointer-events: auto !important;
-
     /* Create flex container to arrange auto-generated elements by Obsidian on each slide */
     display: flex;
     flex-direction: column;
