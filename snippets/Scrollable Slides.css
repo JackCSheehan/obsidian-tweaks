@@ -5,28 +5,19 @@ would normally overflow and be hidden
 
 /* Apply styles to containing divs for slides */
 .slides {
-    /* Grid display used for main alignment */
-    display: grid;
-
-    /* Set grid sizes to be size of slide container */
-    grid-template-rows: 100%;
-    grid-template-columns: 100%;
+    /* Set overflows to allow for auto vertical scroll bar and no horizontal scroll bar */
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
 }
 
+/* Apply styles that apply directly to slides */
 .slides > section {
     /* Enable pointer events so users can click and drag on scrollbars */
     pointer-events: auto !important;
 
-    /* Set overflows to automatically use scrollbars if needed */
-    overflow-x: hidden;
-    overflow-y: auto;
-
-    /* Height setting needed to ensure content can be centered */
-    height: 100%;
-
-    /* Use grid layout settings to center the slide content*/
-    display: grid !important;
+    /* Create flex container to arrange auto-generated elements by Obsidian on each slide */
+    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
