@@ -29,3 +29,7 @@ Slideshow slides do not normally take up the full width of their container div. 
 ### Full Height Slides
 ---
 Similar to Full Width Slides, Full Height Slides makes slides take up the entire height of their container div.
+
+### Better Latex Errors
+---
+Obsidian normally shows Latex errors as text highlighted with a tight and bright yellow background. This snippet changes the error text to be much clearer by making the background color a softer color, making the error text bold and easier to read, and adding padding to the text so the background color interferes less with the recognition of letters.

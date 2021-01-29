@@ -1,0 +1,18 @@
+/*
+Stylesheet to make Latex errors easier to read
+*/
+
+/* Target text inside element that surrounds MathJax that has an error */
+mjx-merror > mjx-mtext {
+    /* Change background color to be a calm red, much calmer than the default bright yellow */
+    background-color: #ff7878;
+
+    /* Make text bold to make it easier to read*/
+    font-weight: bold;
+
+    /* Add padding so the text is more visible */
+    padding: 3px;
+
+    /* Set color to black so it contrasts better with error background color */
+    color: black;
+}
