@@ -1,0 +1,19 @@
+/*
+Stylesheet to change the color of the slide controls to purple to better match the rest of the interface
+*/
+
+/* Change progress bar color to be purple */
+.progress span {
+    background-color: var(--text-accent) !important;
+}
+
+/* Change default slide control button colors to purple */
+.reveal .controls {
+    color: var(--text-accent)
+}
+
+/* Set control hover color to be a slightly lighter purple */
+.reveal .controls:hover {
+    color: var(--text-accent-hover)
+}
+
