@@ -10,11 +10,11 @@ Feel free to contribute to this repository if you'd like.
 
 Below is an explanation of each stylesheet and why I find them useful.
 
-#### Scrollable Slides
+### Scrollable Slides
 ---
 Obsidian has a core plugin that will automatically create slideshows from your notes using the `---` symbol as a delimiter for the slides. One issue this plugin has, however, is that the slides are not responsive. If you put too much content on a slide, it simply overflows and content is hidden beneath the slide's container div. The Scrollable Slides stylesheet automatically adds a scrollbar to overflowing slides so that content is not simply clipped when overflowing. 
 
-#### Slide Image Margins
+### Slide Image Margins
 ---
 Occasionally, the slideshow plugin places images in such a way that the bottom portion of them are cut off. This stylesheet sets the margins of images in slideshows to 0 so that they display fully on the slide. This stylesheet is not needed if you're using the Scrollable Slides snippet.
 
