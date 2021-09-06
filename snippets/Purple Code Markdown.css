@@ -1,7 +1,15 @@
 /*
 This snippet changes code blocks without a specified language to be purple rather than red
-to blend it better with the Obsidian theme colors
+to blend it better with the Obsidian theme colors. Also changes the code block text color
+in the markdown editor
 */
+
+/* Markdown preview color */
 code:not([class]) {
+    color: var(--text-accent);
+}
+
+/* Markdown editor color */
+.cm-hmd-codeblock{
     color: var(--text-accent);
 }
