@@ -1,0 +1,13 @@
+/*
+This theme turns the dark theme extra dark, making most backgrounds pitch black
+*/
+.theme-dark {
+    --background-primary: black;
+    --background-secondary: black;
+    --background-secondary-alt: black;
+    --scrollbar-bg: black;
+}
+
+.slides {
+    background-color: black;
+}

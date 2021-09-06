@@ -1,0 +1,11 @@
+/*
+Makes links in slideshows purple as they are in the markdown editor
+and preview windows
+*/
+.reveal a {
+    color: var(--text-accent);
+}
+
+.reveal a:hover {
+    color: var(--text-accent-hover);;
+}
