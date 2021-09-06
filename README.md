@@ -8,7 +8,7 @@ You can check out Obsidian [here](https://obsidian.md/).
 
 Feel free to contribute to this repository if you'd like.
 
-Below is an explanation of each stylesheet and why I find them useful.
+Below is an explanation of what each stylesheet does.
 
 # Snippets
 
