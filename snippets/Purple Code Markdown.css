@@ -10,6 +10,11 @@ code:not([class]) {
 }
 
 /* Markdown editor color */
-.cm-hmd-codeblock{
+.cm-hmd-codeblock {
     color: var(--text-accent);
+}
+
+/* Markdown editor color for inline code */
+.cm-inline-code {
+    color: var(--text-accent) !important;
 }
