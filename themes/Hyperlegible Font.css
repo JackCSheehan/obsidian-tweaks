@@ -1,0 +1,10 @@
+/*
+Changes default font to Atkinson Hyperlegible, a font designed to be
+legible to those with low vision
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+
+:root {
+    --default-font: "Atkinson Hyperlegible", sans-serif;
+}

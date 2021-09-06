@@ -1,5 +1,5 @@
 ## Obsidian Tweaks
-A collection of small CSS snippets for Obsidian.
+A collection of small CSS snippets and themes for Obsidian.
 
 Obsidian is a markdown editor designed to act as a personal knowledge base and note-taking software. Obsidian is great, but it has a few quirks that make using certain features of it (the slideshow plugin, for example) a bit frustrating. Luckily, Obsidian has native support for adding custom CSS to any part of the program. This repository is a collection of CSS files that I've written to enhance my Obsidian experience.
 
@@ -9,6 +9,8 @@ You can check out Obsidian [here](https://obsidian.md/).
 Feel free to contribute to this repository if you'd like.
 
 Below is an explanation of each stylesheet and why I find them useful.
+
+## Snippets
 
 ### Scrollable Slides
 ---
@@ -37,3 +39,9 @@ Obsidian normally shows Latex errors as text highlighted with a tight and bright
 ### Purple Slide Controls
 ---
 This snippet changes the color of the slide controls (the progress bar and the left/right arrow buttons) to a purple color to better match the rest of the interface.
+
+## Themes
+
+### Hyperlegible Font
+---
+This theme changes the default Obsidian font to Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible?query=atkin#glyphs), a font designed to be legible to those with low vision.
