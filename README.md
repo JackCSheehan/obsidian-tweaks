@@ -44,4 +44,4 @@ This snippet changes the color of the slide controls (the progress bar and the l
 
 ### Hyperlegible Font
 ---
-This theme changes the default Obsidian font to Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible?query=atkin#glyphs), a font designed to be legible to those with low vision.
+This theme changes the default Obsidian font to Atkinson [Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible?query=atkin#glyphs), a font designed to be legible to those with low vision.
