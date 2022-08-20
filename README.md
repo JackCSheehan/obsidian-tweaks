@@ -53,3 +53,14 @@ This theme changes the default Obsidian font to [Atkinson Hyperlegible](https://
 ### Extra Dark
 ---
 Turns the default Obsidian dark theme to a much darker one, making most backgrounds pitch black.
+
+### Screenplay
+---
+The Screenplay theme makes Obsidian look like a screenplay/script.
+- Use `#` for scene titles
+- Use `##` for intercuts
+- Use `###` for character names in dialog sections
+- Use `>` for character dialog
+- Use `####` for transition text
+
+![Screenplay theme screenshot](/.github/screenplay.png)

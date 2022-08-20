@@ -1,0 +1,67 @@
+/*
+This theme takes certain Markdown elements and uses them to format a document as a screenplay
+*/
+
+.cm-scroller, .markdown-preview-view {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+/* Header-1s act as scene headers */
+.HyperMD-header-1, h1 {
+    counter-increment: scene-counter 1 !important;
+    font-size: var(--font-text-size) !important;
+}
+
+.HyperMD-header-1::before, h1::before {
+    content: counter(scene-counter) " " !important;
+}
+
+.cm-header-1, h1 {
+    text-transform: uppercase !important;
+}
+
+/* Header-2s are intercuts */
+.HyperMD-header-2, h2 {
+    font-size: var(--font-text-size) !important;
+}
+
+.cm-header-2, h2 {
+    text-transform: uppercase !important;
+}
+
+/* Header-3s are character name headers */
+.HyperMD-header-3, h3 {
+    text-align: center !important;
+    font-size: var(--font-text-size) !important;
+}
+
+.cm-header-3, h3 {
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+}
+
+/* Quotes hold character dialog */
+.HyperMD-quote, blockquote {
+    text-align: center !important;
+    background: none !important;
+    border: none !important;
+}
+
+.cm-quote, blockquote {
+    color: var(--text-normal) !important;
+}
+
+/* Header-4s are transitions */
+.HyperMD-header-4, h4 {
+    text-align: right !important;
+    font-size: var(--font-text-size) !important;
+}
+
+.HyperMD-header-4::after, h4::after {
+    content: ":"
+}
+
+.cm-header-4, h4 {
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+}
